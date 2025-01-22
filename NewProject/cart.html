@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Koala Mart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="add-to-cart.js" defer></script>
+</head>
+
+<body onload="displayCart()">
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="KoalaMart.html">
+                    <h1>KMart</h1>
+                </a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <img src="./assets/icons/search.png" alt="Search" class="search-icon">
+            </div>
+            <a href="cart.html"><img src="./assets/icons/shopping-cart.png" alt="Cart" class="cart-icon"></a>
+        </div>
+    </nav>
+    <header class="category-header">
+        <h1>Your Cart</h1>
+    </header>
+    <section id="cart-items" class="products">
+        <!-- Cart items will be displayed here by JavaScript -->
+    </section>
+</body>
+
+</html>
